@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Hide browser default up/down arrows (spinners) for numeric inputs to ensure manual text entry only */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
